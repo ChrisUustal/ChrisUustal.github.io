@@ -2,8 +2,63 @@
 <html>
   <head>
     <title>Portfolio - Chris Uustal</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Quicksand">
   </head>
   <body>
-    
+    <nav>
+        <div class="head-bar" role="banner">
+            <ul>
+                <li><h1>Chris Uustal</h1></li>
+                <li><a class="current-page" href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </div>
+        <div class="padding" id="nav-padding"></div>
+    </nav>
+    <main>
+        <div class="main-content">
+            <div class="bio">
+                <img src="images/profile.png">
+                <p>Computer & Electrical Engineering major focusing on embedded system design & rapid prototyping</p> 
+            </div>
+            <div class="project-list">
+                <a href="dataracer.html">
+                    <div class="project">
+                        <h1>DataRacer</h1>
+                        <img src="images/dataracer.jpg" alt="Image of project DataRacer - Small 3D printed smart watch mounted on a wrist">
+                        <p>Data logging smartwatch prototype for race car drivers</p>
+                        <ul>
+                            <li>Logs data to internal microSD card and visualizes on OLED display</li>
+                            <li>32k lines of code in C++, supporting low power sleep and display reformatting</li>
+                        </ul>
+                    </div>
+                </a>
+                <div class="project">
+                    <h1>Gest</h1>
+                    <img src="images/gest.jpg" alt="Image of Gest - Two gloves with attached sensors and 3D printed box">
+                    <p>Gesture tracking smart gloves</p>
+                    <ul>
+                        <li>Can be paired to a laptop via BLE as an HID and operate on battery for up to 4 hours</li>
+                        <li>Supports mouse movement, clicking, typing, and zooming</li>
+                        <li>Automatic sensor recalibration and dynamic fault detection</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h1>EDITH</h1>
+                    <img src="images/edith.jpg" alt="Image of EDITH - A pair of glasses with a transparent lens and camera">
+                    <p>Ultra lightweight augmented reality glasses</p>
+                    <ul>
+                        <li>Utilizes a transparent OLED display and camera with image recognition for dynamic de-focused information overlay</li>
+                        <li>Designed + implemented in a 24-hour sprint</li>
+                        <li>Wireless web interface for device configuration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
   </body>
 </html>

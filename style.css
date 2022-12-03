@@ -1,0 +1,141 @@
+body {
+    background-color: #36383F;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.head-bar ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(54, 56, 63, 0.8);
+}
+
+.head-bar li {
+    display: inline;
+    float: left;
+}
+
+.head-bar li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1.6em 1.5em;
+}
+
+.head-bar li a:hover {
+    background-color: #42444b;
+}
+
+.head-bar h1 {
+    padding: 0 1.5em 0 0.5em;
+}
+
+.current-page {
+    font-weight: 600;
+}
+
+#nav-padding {
+    height: 3em;
+}
+
+.project {
+    margin: 1em;
+    padding: 0em 1em;
+    width: 30em;
+    height: 32em;
+    border-radius: 0.4em;
+    color: white;
+    background-color: #42444b;
+    display: inline-block;
+}
+
+.project h1 {
+    text-align: left;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project ul {
+    padding-left: 1.5em;
+}
+
+.project-list {
+    width: 75%;
+    float: left;
+}
+
+.bio {
+    background-color: #42444b;
+    width: 15%;
+    float: left;
+    padding: 1em;
+    margin: 1em 5% 0 0;
+    border-radius: 0.4em;
+}
+
+.bio img {
+    width: 100%;
+}
+
+.main-content {
+    display: inline-block;
+}
+
+.project-page h1 {
+    margin-left: 1em;
+}
+
+iframe {
+    margin-left: 5%;
+    width: 90%;
+    height: 500px;
+    display: inline-block;
+}
+
+.project-description {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.project-description a {
+    color: lightblue;
+}
+
+.resume-content {
+    width: 98%;
+    margin-left: 1%;
+}
+
+.about-left {
+    width: 32%;
+    margin: 2%;
+    float: left;
+}
+
+.about-left img {
+    width: 100%;
+    padding: 1em 0;
+}
+
+.about-right {
+    width: 60%;
+    margin: 2%;
+    float: left;
+}
+
+.about-right ul {
+    list-style-type: none;
+}
+
+#magic-photo {
+    width: 30%;
+    margin: 0 35%;
+}
